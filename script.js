@@ -55,8 +55,8 @@ document.addEventListener('DOMContentLoaded', function(){
         // will display the data
         const {name, main, weather}=data
         
-        console.log(weather[0])
-        console.log(main);
+        // console.log(weather[0])
+        // console.log(main);
 
 
         cityNameDisplay.textContent = `City: ${name}`
