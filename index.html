@@ -13,11 +13,16 @@
         <input type="text" id="city-input" placeholder="Enter city name" />
         <button id="get-weather-btn">Get Weather</button>
       </div>
-      <div id="weather-info" class="hidden">
+      <div id="weather-info" class="weather-card hidden">
         <h2 id="city-name"></h2>
-        <p id="temperature"></p>
+        <p id="temperature">
+          <span id="current-temp-value"></span>
+          <br>
+          <span id="feels-like"></span>
+        </p>
         <p id="description"></p>
       </div>
+            
       <p id="error-message" class="hidden">City not found. Please try again.</p>
     </div>
     <script src="script.js"></script>
