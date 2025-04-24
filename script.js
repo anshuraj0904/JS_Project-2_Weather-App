@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function(){
     const errMessage = document.getElementById('error-message')
 
     
-    // const api_key = "Your-API-key-here" // Will get this into the environment variables later. 
+    const api_key = "Your-API-key-here" 
 
 
     getWeatherInfoBtn.addEventListener('click', async function(e){
