@@ -74,6 +74,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
         // Display the error message:-
         errMessage.classList.remove('hidden')
+        errMessage.textContent = `City, ${cityInput.value} not found. Please try with correct place!`
 
         cityInput.value = "" 
     }
